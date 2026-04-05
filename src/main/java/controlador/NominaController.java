@@ -24,7 +24,6 @@ public class NominaController {
     //registro de empleados:
     public void registrarEmpleados(Empleado e) {
         listaEmpleados.add(e);//se registra la lista de empleados, se llena de esta forma
-
     }
 
     //sobrecarga:
@@ -47,7 +46,6 @@ public class NominaController {
 
     public ArrayList<Empleado> obtenerLista() {
         return listaEmpleados;
-
     }
 
 }
